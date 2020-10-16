@@ -1,0 +1,11 @@
+_<%= simple_form_for(review) do |f| %>
+  <div>
+    <%= f.input :content %>
+  </div>
+ 
+  <div>
+    <%= f.input :rating %>
+  </div>
+    
+  <%= f.submit class: "btn btn-primary mt-1"%>
+<% end %>
